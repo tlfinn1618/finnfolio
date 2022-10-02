@@ -6,5 +6,11 @@
     "editor.formatOnSaveMode": "file", // required to format on save
     "files.autoSave": "off",
     "files.refactoring.autoSave": false,
-    "prettier.singleAttributePerLine": true // optional but recommended
+    "prettier.singleAttributePerLine": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    } // optional but recommended
 }
